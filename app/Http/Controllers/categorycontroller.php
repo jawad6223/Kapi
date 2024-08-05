@@ -85,10 +85,10 @@ else {
 
 
 
-  Post_category::where('id',$id)->update([
-    'name'=>$req->name,
-    'icon'=> $filename
-  ]);
+  // Post_category::where('id',$id)->update([
+  //   'name'=>$req->name,
+  //   'icon'=> $filename
+  // ]);
   return redirect('/admin/viewcategory')->with('messagem','Add');
 }
 }
