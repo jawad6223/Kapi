@@ -79,9 +79,9 @@ if ($req->has('image')) {
     $filename = $req->file('image')->store('media');
 
 }
-else {
-    $filename = $update->icon;
-}
+// else {
+//     $filename = $update->icon;
+// }
 
 
 
